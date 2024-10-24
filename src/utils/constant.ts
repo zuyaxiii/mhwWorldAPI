@@ -1,0 +1,1 @@
+export const MHW_BASE_URL_ARMOR = "https://mhw-db.com/armor"
