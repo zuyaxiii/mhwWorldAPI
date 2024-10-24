@@ -1,26 +1,26 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import WeaponFront from "../../images/greatswordCard.png"
-import WeaponBack from "../../images/insectGlaiveCard.png"
-import ArmorFront from '../../images/ArmorFront.png';
-import ArmorBack from '../../images/ArmorBack.png';
-import LocationFront from '../../images/LocationFront.png';
-import LocationBack from '../../images//LocationBack.png';
-import MonsterFront from '../../images/Monfront.png';
-import MonsterBack from '../../images/MonBack.png';
+import WeaponFront from "../../../public/imageCard/greatswordCard.png"
+import WeaponBack from "../../../public/imageCard/insectGlaiveCard.png"
+import ArmorFront from '../../../public/imageCard/ArmorFront.png';
+import ArmorBack from '../../../public/imageCard/ArmorBack.png';
+import LocationFront from '../../../public/imageCard/LocationFront.png';
+import LocationBack from '../../../public/imageCard/LocationBack.png';
+import MonsterFront from '../../../public/imageCard/MonFront.png';
+import MonsterBack from '../../../public/imageCard/MonBack.png';
 
 
 interface CardProps {
-    frontImage: string;
-    backImage: string;
-  }
+  frontImage: string;
+  backImage: string;
+}
 
 const CardArmor = () => {
   return (
     <StyledWrapper
-    frontImage={ArmorFront}
-    backImage={ArmorBack}
+      frontImage={ArmorFront}
+      backImage={ArmorBack}
     >
       <div className="card">
         <div className="card-inner">
@@ -28,9 +28,9 @@ const CardArmor = () => {
             <p>EQUIPMENT</p>
           </div>
           <div className="card-back">
-          <Link to="/Armor">
-            <p>CLICK</p>
-          </Link>
+            <Link to="/Armor">
+              <p>CLICK</p>
+            </Link>
           </div>
         </div>
       </div>
@@ -40,8 +40,8 @@ const CardArmor = () => {
 const CardLocation = () => {
   return (
     <StyledWrapper
-    frontImage={LocationFront}
-    backImage={LocationBack}
+      frontImage={LocationFront}
+      backImage={LocationBack}
     >
       <div className="card">
         <div className="card-inner">
@@ -49,9 +49,9 @@ const CardLocation = () => {
             <p>LOCATION</p>
           </div>
           <div className="card-back">
-          <Link to="/Location">
-            <p>CLICK</p>
-          </Link>
+            <Link to="/Location">
+              <p>CLICK</p>
+            </Link>
           </div>
         </div>
       </div>
@@ -61,8 +61,8 @@ const CardLocation = () => {
 const CardMonster = () => {
   return (
     <StyledWrapper
-    frontImage={MonsterFront}
-    backImage={MonsterBack}
+      frontImage={MonsterFront}
+      backImage={MonsterBack}
     >
       <div className="card">
         <div className="card-inner">
@@ -70,9 +70,9 @@ const CardMonster = () => {
             <p>MONSTER</p>
           </div>
           <div className="card-back">
-          <Link to="/Monster">
-            <p>CLICK</p>
-          </Link>
+            <Link to="/Monster">
+              <p>CLICK</p>
+            </Link>
           </div>
         </div>
       </div>
@@ -91,9 +91,9 @@ const CardWeapon = () => {
             <p>WEAPON</p>
           </div>
           <div className="card-back">
-          <Link to="/Weapon">
-            <p>CLICK</p>
-          </Link>
+            <Link to="/Weapon">
+              <p>CLICK</p>
+            </Link>
           </div>
         </div>
       </div>
