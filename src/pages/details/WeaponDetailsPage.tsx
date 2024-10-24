@@ -1,4 +1,3 @@
-import React from "react";
 import WeaponPage from "../../components/WeaponFrom/WeaponPage";
 
 import Logo from '../../images/logo_iceborne_l.png';

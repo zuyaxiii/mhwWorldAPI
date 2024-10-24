@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import {
-  mhwListArmorServices,
   mhwDetailArmorServices,
 } from "../../services/indexServies";
 import SelectPage from "./SelectPage";

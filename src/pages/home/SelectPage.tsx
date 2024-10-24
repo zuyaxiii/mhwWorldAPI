@@ -1,4 +1,3 @@
-import React from "react";
 import {CardLocation , CardArmor , CardWeapon , CardMonster} from "./card";
 
 const SelectPage = () => {

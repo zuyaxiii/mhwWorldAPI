@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  ICrafting,
   IDurability,
   IMonsterHunterWorldWeaponDetail,
   ISlot,

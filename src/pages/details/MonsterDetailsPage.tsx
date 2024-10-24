@@ -1,4 +1,3 @@
-import React from "react";
 import MonsterPage from "../../components/MonsterFrom/MonsterPage";
 
 import Logo from '../../images/logo_iceborne_l.png';
