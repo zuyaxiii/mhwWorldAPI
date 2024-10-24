@@ -1,4 +1,3 @@
-import React from "react";
 import ArmorPage from "../../components/ArmorFrom/ArmorPage";
 
 import Logo from '../../images/logo_iceborne_l.png';
